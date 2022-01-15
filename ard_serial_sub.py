@@ -1,10 +1,10 @@
-def ard_serial_sub(port,speed):
+def ard_serial_sub(ser):
 
 	import serial, sys
 	import syslog
 	import time
 	
-	ser = serial.Serial(port,speed)
+#	ser = serial.Serial(port,speed)
 	# Serial read section
 	line = ser.readline()
 	line2=line.decode('utf-8')
