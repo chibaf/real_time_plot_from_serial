@@ -1,5 +1,4 @@
 import serial, sys
-import syslog
 import time
 from ard_serial_sub import ard_serial_sub
 
