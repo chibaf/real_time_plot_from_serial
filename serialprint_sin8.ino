@@ -39,19 +39,19 @@ void loop()
   i=i+1;
 // print to serial
   Serial.print(val1);
-  Serial.print(" ");
+  Serial.print(",");
   Serial.print(val2);
-  Serial.print(" ");
+  Serial.print(",");
   Serial.print(val3);
-  Serial.print(" ");
+  Serial.print(",");
   Serial.print(val4);
-  Serial.print(" ");
+  Serial.print(",");
   Serial.print(val5);
-  Serial.print(" ");
+  Serial.print(",");
   Serial.print(val6);
-  Serial.print(" ");
+  Serial.print(",");
   Serial.print(val7);
-  Serial.print(" ");
+  Serial.print(",");
   Serial.print(val8);
 //  Serial.print(" ");
 //  Serial.print(val9);
