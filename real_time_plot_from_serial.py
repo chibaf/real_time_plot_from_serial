@@ -1,6 +1,5 @@
 import serial, sys
 import time
-import numpy as np
 import matplotlib.pyplot as plt
 
 from ard_serial_sub import ard_serial_sub
